@@ -51,22 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        // Check for existing Google Sign In account, if the user is already signed in
-// the GoogleSignInAccount will be non-null.
-        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
-//        //get user data from account
-//        String image = account.getPhotoUrl().getPath();
-//        String name = account.getDisplayName();
-//        String email = account.getEmail();
-//
-//        //now send these data to the google sign in activity
-//        sendAccountDetails(image, name, email);
-
-    }
-
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
