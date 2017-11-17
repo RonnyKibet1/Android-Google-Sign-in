@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "546358081399",
+    "project_id": "voltaic-cirrus-186312"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546358081399:android:30bdd4509cddfe51",
+        "android_client_info": {
+          "package_name": "codestart.info.androidgooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546358081399-petjegpim5b67po6lep84u94qb4uk0ij.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "546358081399-6lh49h25tj32q5v3g6bv7g78ti84f2e0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "codestart.info.androidgooglesignin",
+            "certificate_hash": "62ad65294b3ffa3234758a85bacb34ee145c495c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKQ6mb8lbdAcAYYbME19ocXdmBStJnRWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
